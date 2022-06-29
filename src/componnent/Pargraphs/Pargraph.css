@@ -1,0 +1,14 @@
+.raqamProg,
+.expertiseparg,
+.gomucodeProg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+.carddiv {
+  display: flex !important;
+  flex-direction: row !important;
+  background-color: aqua;
+}

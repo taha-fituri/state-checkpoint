@@ -1,0 +1,33 @@
+.App {
+  background-color: #fcfcfc;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.WhoAmI,
+.singup {
+  /* width: max-content; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  padding: 2% 10% 0 10%;
+}
+.mydetails,
+.singupform {
+  padding-top: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divcard {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding-top: 2%;
+  margin: 0 9%;
+  flex-wrap: wrap;
+}
