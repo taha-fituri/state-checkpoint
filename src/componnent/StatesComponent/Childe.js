@@ -32,10 +32,10 @@ class Childe extends React.Component {
       <>
         <>
           <h1>{fullName}</h1>
-          <h1>{bio}</h1>
+          <h2>{bio}</h2>
           <img height="350px" src={imgSrc} alt="Myprofile"></img>
-          <h1>{profession}</h1>
-          <h1>{count}</h1>
+          <h2>{profession}</h2>
+          <h2>{count}</h2>
           <br></br>
         </>
       </>
